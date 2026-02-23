@@ -1,0 +1,190 @@
+{
+  "boards": [
+    {
+      "id": 1,
+      "name": "Proyecto Principal",
+      "lists": [
+        {
+          "id": 1,
+          "name": "Backlog",
+          "cards": [
+            {
+              "id": 11,
+              "title": "Configurar PostgreSQL con pg",
+              "description": "Conexión a base de datos, pool de conexiones y variables de entorno",
+              "prioridad": "Task",
+              "tag": "FEATURE",
+              "estado": "Doing",
+              "fecha_creacion": "2026-02-22",
+              "fecha_inicio": "2026-02-23",
+              "fecha_fin": "2026-02-26",
+              "autor": "Luis",
+              "responsable": "Luis"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Doing",
+          "cards": [
+            {
+              "id": 7,
+              "title": "Implementar autenticación JWT",
+              "description": "Login y registro con tokens JWT y middleware de protección de rutas",
+              "prioridad": "Feature",
+              "tag": "FEATURE",
+              "estado": "Backlog",
+              "fecha_creacion": "2026-02-23",
+              "fecha_inicio": "2026-03-01",
+              "fecha_fin": "2026-03-05",
+              "autor": "Carlos",
+              "responsable": "Ana"
+            },
+            {
+              "id": 8,
+              "title": "Crear modelo de Usuario",
+              "description": "Schema con nombre, email, password hasheado con bcrypt",
+              "prioridad": "Task",
+              "tag": "FEATURE",
+              "estado": "Backlog",
+              "fecha_creacion": "2026-02-23",
+              "fecha_inicio": "",
+              "fecha_fin": "2026-03-03",
+              "autor": "Ana",
+              "responsable": "Ana"
+            },
+            {
+              "id": 9,
+              "title": "Validar inputs con express-validator",
+              "description": "Agregar validaciones a todos los endpoints POST y PUT",
+              "prioridad": "Improvement",
+              "tag": "IMPROVEMENT",
+              "estado": "Backlog",
+              "fecha_creacion": "2026-02-23",
+              "fecha_inicio": "",
+              "fecha_fin": "",
+              "autor": "Luis",
+              "responsable": ""
+            },
+            {
+              "id": 10,
+              "title": "Documentar API con Swagger",
+              "description": "Generar docs OpenAPI para todos los endpoints del proyecto",
+              "prioridad": "Task",
+              "tag": "FEATURE",
+              "estado": "Backlog",
+              "fecha_creacion": "2026-02-23",
+              "fecha_inicio": "",
+              "fecha_fin": "",
+              "autor": "Luis",
+              "responsable": "Luis"
+            },
+            {
+              "id": 4,
+              "title": "Configurar proyecto Node.js",
+              "description": "Inicializar con npm, instalar Express, Handlebars y dependencias base",
+              "prioridad": "Task",
+              "tag": "FEATURE",
+              "estado": "Doing",
+              "fecha_creacion": "2026-02-20",
+              "fecha_inicio": "2026-02-21",
+              "fecha_fin": "2026-02-24",
+              "autor": "Carlos",
+              "responsable": "Carlos"
+            },
+            {
+              "id": 3,
+              "title": "Desarrollar API REST",
+              "description": "Endpoints CRUD para usuarios y tareas con Express Router",
+              "prioridad": "Feature",
+              "tag": "FEATURE",
+              "estado": "Doing",
+              "fecha_creacion": "2026-02-21",
+              "fecha_inicio": "2026-02-22",
+              "fecha_fin": "2026-02-28",
+              "autor": "Ana",
+              "responsable": "Ana"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Review",
+          "cards": [
+            {
+              "id": 1,
+              "title": "Diseñar interfaz de usuario",
+              "description": "Mockups en Figma para dashboard y vistas principales",
+              "prioridad": "Feature",
+              "tag": "FEATURE",
+              "estado": "Review",
+              "fecha_creacion": "2026-02-18",
+              "fecha_inicio": "2026-02-19",
+              "fecha_fin": "2026-02-22",
+              "autor": "Ana",
+              "responsable": "Carlos"
+            },
+            {
+              "id": 12,
+              "title": "Fix: rutas protegidas devuelven 500",
+              "description": "Error al verificar token cuando el header Authorization está vacío",
+              "prioridad": "Bug",
+              "tag": "HOTFIX",
+              "estado": "Review",
+              "fecha_creacion": "2026-02-22",
+              "fecha_inicio": "2026-02-22",
+              "fecha_fin": "2026-02-23",
+              "autor": "Carlos",
+              "responsable": "Ana"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Done",
+          "cards": [
+            {
+              "id": 2,
+              "title": "Inicializar repositorio Git",
+              "description": "Crear repo, .gitignore para Node, estructura de carpetas base",
+              "prioridad": "Task",
+              "tag": "FEATURE",
+              "estado": "Done",
+              "fecha_creacion": "2026-02-17",
+              "fecha_inicio": "2026-02-17",
+              "fecha_fin": "2026-02-17",
+              "autor": "Carlos",
+              "responsable": "Carlos"
+            },
+            {
+              "id": 13,
+              "title": "Instalar y configurar ESLint",
+              "description": "Configurar linter con reglas estándar para el equipo",
+              "prioridad": "Improvement",
+              "tag": "IMPROVEMENT",
+              "estado": "Done",
+              "fecha_creacion": "2026-02-17",
+              "fecha_inicio": "2026-02-18",
+              "fecha_fin": "2026-02-18",
+              "autor": "Luis",
+              "responsable": "Luis"
+            },
+            {
+              "id": 14,
+              "title": "Definir estructura de carpetas MVC",
+              "description": "Separar routes, controllers, models y middlewares",
+              "prioridad": "Task",
+              "tag": "FEATURE",
+              "estado": "Done",
+              "fecha_creacion": "2026-02-17",
+              "fecha_inicio": "2026-02-18",
+              "fecha_fin": "2026-02-19",
+              "autor": "Ana",
+              "responsable": "Ana"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
